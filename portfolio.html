@@ -16,12 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 </head> 
 
 <body>
  <!-- Portfolio Page -->
     <header class="header">
+        <div class="container">
         <section class="header-portfolio">
          <a class="header-link link" href=""><span class="header-link-color">Web</span>Studio</a>
          <nav class="nav">
@@ -35,11 +39,14 @@
          <a class="contact-link-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
          <a class="contact-link-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
         </section>
+        </div>
+        
     </header>
  
     <!-- Portfolio box-->
      <main>
-        <section class="portfolio-main ">
+        <section class="portfolio-main">
+            <div class="container">
         <!-- Filters -->
             <ul class="list-btn list portfolio-filters">
                 <li><button class="filter-btn portfolio-btn" type="button">Усі</button></li>
@@ -47,10 +54,10 @@
                 <li><button class="filter-btn portfolio-btn3" type="button">Додатки</button></li>
                 <li><button class="filter-btn portfolio-btn4" type="button">Дизайн</button></li>                
                 <li><button class="filter-btn portfolio-btn5" type="button">Маркетинг</button></li>
-        
             </ul>
+            </div>
      <!-- Project -->
-        
+        <div class="container">
          <ul class="list-project list">
          <li class="list-project-item list-project-margin" style="margin-left: 0;">
              <a class="link" href="">
@@ -117,10 +124,12 @@
          </li>
          </ul>    
         </section>
+        </div>
      </main>
 
 <!-- Footer -->
 <footer class="fotter">
+    <div class="container">
     <a class="fotter-link-logo link" href="">Web<span class="accent">Studio</span></a>
     <address class="adress">
         <ul class="fotter-contacts-list list">
@@ -136,6 +145,7 @@
             </li>
         </ul>
     </address>
+    </div>
 </footer>
 </body>
 </html>
