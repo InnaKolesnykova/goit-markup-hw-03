@@ -26,6 +26,7 @@ body
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
 }
 
 .nav-header-link.current
@@ -64,6 +65,7 @@ body
     align-items: center;
     background-color: var(--background-color);
     border-bottom: 1px solid #ececec;
+  
 
 }
 
