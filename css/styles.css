@@ -7,6 +7,8 @@
 --brand-color: #2196F3;   
 }
 
+
+
 body
 {
     color: var(--background-color);
@@ -36,6 +38,8 @@ body
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -51,7 +55,7 @@ body
 /* Header*/
 .header
 {
-    /*color: var(--background-color);
+    color: var(--background-color);
     width: 1600px;
     height: 80px;
     flex-shrink: 0;
@@ -60,13 +64,13 @@ body
     justify-content: flex-start;
     border: 1px solid #ececec;
     margin-top: 0;
-    margin-bottom: 0;*/
+    margin-bottom: 0;
+}
+
+.header-container
+{
     display: flex;
     align-items: center;
-    background-color: var(--background-color);
-    border-bottom: 1px solid #ececec;
-  
-
 }
 
 /* Top line Container */
@@ -91,10 +95,6 @@ body
     margin-right: 93px;
     padding-bottom: 25px;
     line-height: normal;
-    /*margin-top: 24px;
-    margin-left: 215px;
-    margin-bottom: 25px;*/
-    
 }
 
 .nav-header-link
@@ -132,6 +132,11 @@ body
     margin-right: 50px;
 }
 
+.header-list-item:last-child
+{
+    margin-right: 0;
+}
+
 /* E-mail */  /* Tel-box */
 .contact-link-tel
 {
@@ -141,8 +146,11 @@ body
     font-weight: 500;
     letter-spacing: 0.28px;
     margin-bottom: 32px;
-    margin-left: 50px;
     margin-top: 32px;
+    width: 122px;
+    height: 16px;
+    flex-shrink: 0;
+    display: flex;
 }
 
 .contact-link-email
@@ -155,12 +163,18 @@ body
     margin-bottom: 32px;
     margin-left: 344px;
     margin-top: 32px;
+    margin-right: 50px;
+    width: 135px;
+    height: 16px;
+    flex-shrink: 0;
+    display: flex;
 }
 
 /* Cap */
 .main-title
 {
     width: 696px;
+    height: 120px;
     color: var(--background-color);
     text-align: center;
     font-size: 44px;
@@ -168,8 +182,16 @@ body
     line-height: 1.3;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    padding-top: 200px;
-    padding-left: 452px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container-section
+{
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn
@@ -186,8 +208,8 @@ body
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.96px;
-    margin-left: 692px;
-    margin-top: 30px;
+    margin: auto;
+    cursor: pointer;
 }
 
 .main-section-1
@@ -198,6 +220,11 @@ body
     box-sizing: border-box;
     background: #2F303A;
     margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+
 }    
 
 .main-section-2
@@ -395,6 +422,8 @@ body
     background-color: var(--brand-color);
 }
 
+
+
 .portfolio-btn
 {
     width: 73px;
@@ -526,10 +555,11 @@ body
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
-    display: flex;
+    display: block;
     padding-top: 60px;
-    margin-left: 215px;
-    margin-bottom: 0;
+    
+    margin-bottom: 20px;
+    
 }
 
 .accent
@@ -543,7 +573,7 @@ body
     height: 81px;
     flex-shrink: 0;
     display: flex;
-    padding-left: 215px;
+   
     padding-top: 20px;
     font-style: normal;
 }
