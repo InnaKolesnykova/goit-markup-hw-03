@@ -389,28 +389,10 @@ button
     font-family: var(--main-font);
 }
 
-.portfolio-btn:hover
+.list-btn button:hover
 {
     color: var(--background-color);
-    background-color: var(--brand-color);
-}
-
-.portfolio-btn2
-{
-    width: 125px;
-    height: 38px;
-}
-
-.portfolio-btn3
-{
-    width: 112px;
-    height: 38px;
-}
-
-.portfolio-btn4
-{
-    width: 103px;
-    height: 38px;
+    background-color: #2196F3;
 }
 
 
