@@ -332,6 +332,7 @@ a.nav-header-link
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
+    list-style: none;
 }
 
 .filter-btn
