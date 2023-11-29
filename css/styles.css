@@ -65,6 +65,10 @@ button
     color: var(--brand-color);
 }
 
+img
+{
+    display: block;
+}
 
 /* Header*/
 .header
@@ -378,6 +382,7 @@ a.nav-header-link
     display: flex;
     flex-wrap: wrap;
     gap: 30px;  
+    list-style-type: none;
 } 
 
 .list-project li {
@@ -397,8 +402,9 @@ a.nav-header-link
     color: var(--main-color);
     font-family: var(--main-font);
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 1.08px;
+    margin-bottom: 4px;
 }
 
 .list-project p
